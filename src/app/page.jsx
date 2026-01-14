@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="slabo text-6xl">Checkmate</h1>
+    <div className="bg-base-100">
+      <Navbar />
+      <Banner />
     </div>
   );
 }
