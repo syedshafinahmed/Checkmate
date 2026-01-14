@@ -49,7 +49,7 @@ const Banner = () => {
 
       <div className="absolute inset-0 bg-black/80 z-10" />
 
-      <div className="absolute inset-0 z-20 flex items-center">
+      <div className="absolute inset-0 z-20 flex items-center pt-20">
         <div className="max-w-4xl px-6 md:px-12 space-y-6 text-white">
 
           <span className="inline-flex px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300">
