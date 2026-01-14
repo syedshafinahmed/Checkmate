@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-const images = ["/banner6.jpg", "/banner3.jpg", "/banner4.jpg"];
+const images = ["/banner1.jpg", "/banner2.jpg", "/banner3.jpg"];
 
 const Banner = () => {
   const [activeIndex, setActiveIndex] = useState(0);
