@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const Players = () => {
   return (
-    <section id="players" className="relative py-20 px-4 max-w-7xl mx-auto">
+    <section id="players" className="relative py-20 px-4 md:px-0 max-w-7xl mx-auto">
 
       <div className="relative z-10">
         <div className="text-center mb-10">
@@ -57,7 +57,7 @@ const Players = () => {
                   <img
                     src={player.image}
                     alt={player.name}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
                   />
 
@@ -95,7 +95,7 @@ const Players = () => {
           ))}
         </Swiper>
 
-        <div className="flex items-center justify-center gap-4 mt-8">
+        <div className="flex items-center justify-center gap-4 mt-7">
           <button className="group/prev swiper-button-prev-players relative w-12 h-12 rounded-full backdrop-blur-xl bg-white/5 border border-white/10 text-orange-300 hover:bg-orange-300/10 hover:border-orange-300/30 transition-all duration-300 flex items-center justify-center">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
