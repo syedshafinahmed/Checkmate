@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Players from "./components/Players";
 import Footer from "./components/Footer";
+import Pricing from "./components/Pricing";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Banner />
       <About />
       <Players />
+      <Pricing />
       <Footer />    
     </div>
   );
