@@ -13,6 +13,27 @@ const images = ["/banner1.jpg", "/banner2.jpg", "/banner3.jpg"];
 const Banner = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.15,
+        delayChildren: 0.4,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.8, ease: "easeOut" },
+    },
+  };
+
+
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <Swiper
@@ -49,38 +70,53 @@ const Banner = () => {
 
       <div className="absolute inset-0 bg-black/80 z-10" />
 
-      <div className="absolute inset-0 z-20 flex items-center pt-20">
-        <div className="max-w-4xl px-6 md:px-12 space-y-6 text-white">
+      <div className="absolute inset-0 z-20 flex items-center justify-center">
+        <motion.div
+          className="max-w-4xl mx-auto px-6 md:px-12 space-y-6 text-white text-center pt-15"
+          variants={containerVariants}
+          initial="hidden"
+          animate="visible"
+        >
 
-          <span className="inline-flex px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300">
+          <motion.span
+            variants={itemVariants}
+            className="inline-flex mx-auto px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300"
+          >
             Welcome to Checkmate
-          </span>
+          </motion.span>
 
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight">
-            From Opening Theory to <span className="text-orange-300">Winning Endgames</span>
-          </h1>
+          <motion.h1
+            variants={itemVariants}
+            className="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight"
+          >
+            From Opening Theory to{" "}
+            <span className="text-orange-300">Winning Endgames</span>
+          </motion.h1>
 
-          <p className="text-lg md:text-xl text-white max-w-2xl">
+          <motion.p
+            variants={itemVariants}
+            className="text-lg md:text-xl max-w-2xl mx-auto"
+          >
             Sharpen your tactics, analyze every move, and dominate the board
             with confidence and clarity.
-          </p>
+          </motion.p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
-            <button
-              className="px-6 py-3 text-base font-semibold bg-orange-300 text-black rounded border border-transparent hover:bg-transparent hover:text-orange-300 hover:border-orange-300 transition"
-            >
+          <motion.div
+            variants={itemVariants}
+            className="flex flex-wrap justify-center gap-4 pt-4"
+          >
+            <button className="px-6 py-3 text-base font-semibold bg-orange-300 text-black rounded border border-transparent hover:bg-transparent hover:text-orange-300 hover:border-orange-300 transition">
               Get Started
             </button>
 
-            <div
-              className="px-6 py-3 flex items-center gap-2 text-white font-semibold border border-white rounded hover:bg-white hover:text-black transition"
-            >
-              Learn More 
+            <div className="px-6 py-3 flex items-center gap-2 font-semibold border border-white rounded hover:bg-white hover:text-black transition">
+              Learn More
             </div>
-          </div>
+          </motion.div>
 
-        </div>
+        </motion.div>
       </div>
+
     </div>
   );
 };
