@@ -1,0 +1,112 @@
+[
+  {
+    "name": "Garry Kasparov",
+    "country": "Russia",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "yearsActive": "1973–2005",
+    "notableAchievements": [
+      "World Chess Champion (1985–2000)",
+      "Dominated chess for over 20 years"
+    ],
+    "image": "https://i.postimg.cc/6Q8MD47F/garry.jpg"
+  },
+  {
+    "name": "Magnus Carlsen",
+    "country": "Norway",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+    "yearsActive": "2004–present",
+    "notableAchievements": [
+      "World Chess Champion (2013–2023)",
+      "Known for universal style and endgame mastery"
+    ],
+    "image": "https://i.postimg.cc/YC9RWLx4/magnus.webp"
+  },
+  {
+    "name": "Bobby Fischer",
+    "country": "USA",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "yearsActive": "1958–1972",
+    "notableAchievements": [
+      "World Chess Champion (1972–1975)",
+      "First American to win the World Chess Championship"
+    ],
+    "image": "https://i.postimg.cc/MTymS7zN/bobby.jpg"
+  },
+  {
+    "name": "Anatoly Karpov",
+    "country": "Russia",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "yearsActive": "1968–2000",
+    "notableAchievements": [
+      "World Chess Champion (1975–1985)",
+      "Known for positional mastery and strategic play"
+    ],
+    "image": "https://i.postimg.cc/YqXfMqwk/carpov.jpg"
+  },
+  {
+    "name": "Jose Raul Capablanca",
+    "country": "Cuba",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
+    "yearsActive": "1901–1942",
+    "notableAchievements": [
+      "World Chess Champion (1921–1927)",
+      "Legendary endgame technique"
+    ],
+    "image": "https://i.postimg.cc/76ySm5SS/capablanca19.jpg"
+  },
+  {
+    "name": "Alexander Alekhine",
+    "country": "Russia/France",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "yearsActive": "1902–1946",
+    "notableAchievements": [
+      "World Chess Champion (1927–1935, 1937–1946)",
+      "Known for creative attacking style"
+    ],
+    "image": "https://i.postimg.cc/PrqY3s8q/Alexandre-Alekhine-Color.jpg"
+  },
+  {
+    "name": "Mikhail Tal",
+    "country": "Latvia (Soviet Union)",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
+    "yearsActive": "1949–1992",
+    "notableAchievements": [
+      "World Chess Champion (1960–1961)",
+      "Known as 'The Magician from Riga' for sacrificial play"
+    ],
+    "image": "https://i.postimg.cc/tT5nk2q9/Mikhail-Tal-1968-color.jpg"
+  },
+  {
+    "name": "Vishwanathan Anand",
+    "country": "India",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "yearsActive": "1985–present",
+    "notableAchievements": [
+      "World Chess Champion (2000, 2007–2013)",
+      "Popularized chess in India"
+    ],
+    "image": "https://i.postimg.cc/9XLqq8NH/images.jpg"
+  },
+  {
+    "name": "Paul Keres",
+    "country": "Estonia",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg",
+    "yearsActive": "1935–1975",
+    "notableAchievements": [
+      "Top contender for World Championship for decades",
+      "Known as the 'Crown Prince of Chess'"
+    ],
+    "image": "https://i.postimg.cc/bvfGjKdp/paul-keres.jpg"
+  },
+  {
+    "name": "Tigran Petrosian",
+    "country": "Armenia (Soviet Union)",
+    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
+    "yearsActive": "1939–1984",
+    "notableAchievements": [
+      "World Chess Champion (1963–1969)",
+      "Known for incredible defensive skills"
+    ],
+    "image": "https://i.postimg.cc/prSTcSgL/Tigran-Petrosian-1962.jpg"
+  }
+]

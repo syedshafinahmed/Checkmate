@@ -4,7 +4,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import { motion } from "framer-motion";
-import players from "../data/players.json"; 
+import players from "../data/legends.json";
 
 import "swiper/css";
 import "swiper/css/navigation";

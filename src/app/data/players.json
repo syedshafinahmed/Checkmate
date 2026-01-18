@@ -1,112 +1,302 @@
 [
   {
-    "name": "Garry Kasparov",
-    "country": "Russia",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
-    "yearsActive": "1973–2005",
-    "notableAchievements": [
-      "World Chess Champion (1985–2000)",
-      "Dominated chess for over 20 years"
-    ],
-    "image": "https://i.postimg.cc/6Q8MD47F/garry.jpg"
-  },
-  {
+    "id": 1,
     "name": "Magnus Carlsen",
+    "title": "Grandmaster",
     "country": "Norway",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
-    "yearsActive": "2004–present",
-    "notableAchievements": [
-      "World Chess Champion (2013–2023)",
-      "Known for universal style and endgame mastery"
-    ],
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Norway.svg",
+    "rating": 2830,
+    "peakRating": 2882,
+    "age": 34,
+    "biography": "Magnus Carlsen is widely regarded as one of the greatest chess players in history and remains an active force at the very top level. He became world champion in 2013 and successfully defended the title multiple times, redefining modern championship preparation. Known for his universal playing style, Carlsen excels in all phases of the game and often wins seemingly equal positions through deep understanding and relentless pressure. His endgame technique is considered exceptional, frequently converting minimal advantages into full points. Beyond classical chess, he dominates rapid and blitz formats, consistently leading global rating lists across time controls. Carlsen is also recognized for his practical approach, choosing flexible openings and avoiding excessive theoretical battles when possible. He has won numerous elite tournaments, including multiple editions of Tata Steel, Norway Chess, and the Grand Chess Tour. Off the board, he has significantly increased chess’s global popularity through media presence, online platforms, and entrepreneurial ventures. His competitive longevity, adaptability, and psychological resilience continue to set benchmarks for elite performance. Even after stepping away from the world championship title, Carlsen remains the player everyone measures themselves against in contemporary professional chess competition worldwide today.",
     "image": "https://i.postimg.cc/YC9RWLx4/magnus.webp"
   },
   {
-    "name": "Bobby Fischer",
-    "country": "USA",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
-    "yearsActive": "1958–1972",
-    "notableAchievements": [
-      "World Chess Champion (1972–1975)",
-      "First American to win the World Chess Championship"
-    ],
-    "image": "https://i.postimg.cc/MTymS7zN/bobby.jpg"
+    "id": 2,
+    "name": "Hikaru Nakamura",
+    "title": "Grandmaster",
+    "country": "United States",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "rating": 2780,
+    "peakRating": 2816,
+    "age": 37,
+    "biography": "Hikaru Nakamura is one of the most dynamic and influential chess players of the modern era, combining elite competitive results with massive online reach. A five time United States Champion, he has been a consistent top ten player for over a decade. Nakamura is especially renowned for his speed chess skills, regularly dominating rapid and blitz events at the highest level. His aggressive and resourceful style allows him to thrive in complex positions where creativity and intuition are essential. In recent years, he has also reasserted himself in classical chess, qualifying for world championship cycles and winning elite tournaments. Nakamura played a key role in popularizing chess on streaming platforms, introducing the game to millions of new fans worldwide. His instructional content, commentary, and entertainment focused streams helped drive the global chess boom. Despite his online success, he remains deeply competitive over the board, balancing preparation with practical decision making. Nakamura’s ability to adapt to evolving formats and audiences makes him one of the most recognizable and impactful figures in contemporary professional chess today.",
+    "image": "https://i.postimg.cc/7PpMR5Ns/hikaru.jpg"
   },
   {
-    "name": "Anatoly Karpov",
+    "id": 3,
+    "name": "Fabiano Caruana",
+    "title": "Grandmaster",
+    "country": "United States",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "rating": 2795,
+    "peakRating": 2844,
+    "age": 32,
+    "biography": "Fabiano Caruana is a leading classical chess specialist and one of the strongest players of his generation. He rose to prominence at a young age, becoming a grandmaster before his fifteenth birthday. Caruana is known for his deep opening preparation, precise calculation, and disciplined strategic approach. His landmark achievement came in 2018 when he challenged Magnus Carlsen for the World Championship, drawing all classical games and pushing the match to rapid tiebreaks. He has won multiple elite tournaments, including the Candidates Tournament, Sinquefield Cup, and several national championships. Caruana consistently ranks among the world’s top players and is respected for his professionalism and work ethic. His games often feature long theoretical battles followed by accurate technical play. In team competitions, he has been a cornerstone for the United States, contributing to Olympiad and World Team Championship successes. Caruana’s calm demeanor, analytical depth, and consistency make him a model of modern classical chess excellence at the highest competitive level today.",
+    "image": "https://i.postimg.cc/fb2YfyLY/fabi.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Ding Liren",
+    "title": "Grandmaster",
+    "country": "China",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+    "rating": 2785,
+    "peakRating": 2816,
+    "age": 32,
+    "biography": "Ding Liren is a trailblazing Chinese grandmaster who has played a historic role in the global chess landscape. He became China’s first World Chess Champion in 2023, marking a major milestone for Asian chess. Ding is admired for his calm, universal style, combining solid defensive skills with precise counterattacking ability. He is particularly strong in positional play, often outmaneuvering opponents through subtle improvements and accurate calculation. Ding maintained one of the longest undefeated streaks in elite chess, highlighting his consistency and resilience. He has achieved success across all time controls, winning major tournaments and contributing significantly to China’s dominance in team competitions. Despite facing challenges related to international competition schedules, Ding has consistently demonstrated elite performance when given opportunities. His sportsmanship and composed presence at the board have earned widespread respect. Ding’s achievements have inspired a new generation of players in China and beyond, cementing his legacy as one of the most important figures in modern competitive chess today.",
+    "image": "https://i.postimg.cc/kMtWWndS/ding.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Ian Nepomniachtchi",
+    "title": "Grandmaster",
     "country": "Russia",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
-    "yearsActive": "1968–2000",
-    "notableAchievements": [
-      "World Chess Champion (1975–1985)",
-      "Known for positional mastery and strategic play"
-    ],
-    "image": "https://i.postimg.cc/YqXfMqwk/carpov.jpg"
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "rating": 2788,
+    "peakRating": 2795,
+    "age": 34,
+    "biography": "Ian Nepomniachtchi is an elite Russian grandmaster known for his sharp instincts, fast decision making, and aggressive play. He has won the Candidates Tournament multiple times, earning the right to challenge for the World Championship on more than one occasion. Nepomniachtchi is particularly dangerous in dynamic positions, where initiative and tactical awareness are critical. His opening choices often lead to unbalanced middlegames, putting immediate pressure on opponents. Alongside classical chess, he is an exceptional blitz player, frequently achieving top finishes in world rapid and blitz championships. Nepomniachtchi’s playing style reflects confidence and intuition, sometimes favoring activity over absolute structural safety. In team events, he has been a key contributor to Russian successes at Olympiads and championships. While his career has included ups and downs at the very top level, his fighting spirit and ability to rebound remain defining traits. Nepomniachtchi continues to be a major contender in elite tournaments and championship cycles worldwide today.",
+    "image": "https://i.postimg.cc/9QcT3ZwV/ian.jpg"
   },
   {
-    "name": "Jose Raul Capablanca",
-    "country": "Cuba",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Flag_of_Cuba.svg",
-    "yearsActive": "1901–1942",
-    "notableAchievements": [
-      "World Chess Champion (1921–1927)",
-      "Legendary endgame technique"
-    ],
-    "image": "https://i.postimg.cc/76ySm5SS/capablanca19.jpg"
+    "id": 6,
+    "name": "Alireza Firouzja",
+    "title": "Grandmaster",
+    "country": "France",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+    "rating": 2770,
+    "peakRating": 2804,
+    "age": 21,
+    "biography": "Alireza Firouzja is one of the most talented chess prodigies of the modern era and remains an active elite competitor. Born in Iran and later representing France, he achieved grandmaster status at an exceptionally young age. Firouzja is known for his fearless attacking style, sharp calculation, and willingness to take risks against the strongest opposition. His rise through the rankings was rapid, highlighted by victories over multiple world championship contenders in elite tournaments. He became one of the youngest players ever to cross the 2800 rating barrier, signaling his arrival among the absolute best. Firouzja excels in dynamic positions, often favoring initiative and piece activity over material considerations. He has also demonstrated strong results in rapid and blitz formats, showcasing versatility across time controls. Despite his youth, Firouzja displays maturity in preparation and endgame technique. His competitive ambition and confidence make him a dangerous opponent for any player. Many experts view him as a future world championship contender, capable of defining the next generation of professional chess at the highest global level. His influence continues growing as fans admire creativity discipline resilience leadership sportsmanship preparation adaptability focus longevity professionalism consistency inspiration worldwide through competition education media presence and global culture.",
+    "image": "https://i.postimg.cc/nLzDrxkf/alireza.jpg"
   },
   {
-    "name": "Alexander Alekhine",
-    "country": "Russia/France",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
-    "yearsActive": "1902–1946",
-    "notableAchievements": [
-      "World Chess Champion (1927–1935, 1937–1946)",
-      "Known for creative attacking style"
-    ],
-    "image": "https://i.postimg.cc/PrqY3s8q/Alexandre-Alekhine-Color.jpg"
+    "id": 7,
+    "name": "Wesley So",
+    "title": "Grandmaster",
+    "country": "United States",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "rating": 2753,
+    "peakRating": 2770,
+    "age": 32,
+    "biography": "Wesley So is a world-class American chess grandmaster recognized for his exceptional consistency, precision, and calm positional play. Born in the Philippines, he later transferred to represent the United States, becoming one of the top-rated players globally. So is known for his strategic clarity and endgame mastery, which allows him to convert small advantages efficiently and maintain a steady performance in long, high-pressure games. His approach is disciplined and methodical, combining deep opening preparation with a universal style capable of handling tactical and positional complexities alike. So excels in rapid and blitz formats, having achieved multiple elite tournament victories across classical, rapid, and blitz competitions. His ability to remain composed under pressure, coupled with his strong defensive skills, makes him a reliable top-level competitor. Wesley has a reputation for thoughtful, risk-averse play, carefully balancing aggression with safety, and consistently scoring against the world’s strongest opponents. Beyond his results, he is admired for his professionalism, humility, and dedication to constant improvement. As a representative of modern elite chess, Wesley So continues to influence competitive play with his disciplined approach, universal understanding, and steady rise among the world’s chess elite.",
+    "image": "https://i.postimg.cc/FKBJJ6WG/Wesley-So.jpg"
   },
   {
-    "name": "Mikhail Tal",
-    "country": "Latvia (Soviet Union)",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Latvia.svg",
-    "yearsActive": "1949–1992",
-    "notableAchievements": [
-      "World Chess Champion (1960–1961)",
-      "Known as 'The Magician from Riga' for sacrificial play"
-    ],
-    "image": "https://i.postimg.cc/tT5nk2q9/Mikhail-Tal-1968-color.jpg"
+    "id": 8,
+    "name": "Anish Giri",
+    "title": "Grandmaster",
+    "country": "Netherlands",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/2/20/Flag_of_the_Netherlands.svg",
+    "rating": 2760,
+    "peakRating": 2798,
+    "age": 30,
+    "biography": "Anish Giri is a Dutch chess grandmaster renowned for his deep opening knowledge, strategic understanding, and analytical precision. Born in Russia and raised in the Netherlands, he has become one of the most consistent performers in elite tournaments worldwide. Giri’s style blends sharp calculation with solid positional play, making him a formidable opponent in all formats of chess. He is especially well-known for his preparation in opening theory, often steering games into positions that reflect his extensive research and understanding. Beyond competitive success, Anish contributes to the chess community as a prolific commentator, streamer, and educator, sharing insights into professional-level play. He frequently participates in super tournaments, demonstrating resilience and adaptability against the strongest opposition. Giri is respected for his calm demeanor at the board, maintaining focus under intense pressure while rarely overextending in complex positions. His disciplined approach combines careful planning with tactical alertness, often neutralizing opponents’ advantages and capitalizing on small inaccuracies. Off the board, Giri’s humor, intelligence, and communication skills have earned him a wide following among chess enthusiasts globally. As a player, analyst, and influencer, Anish Giri continues to shape modern chess through consistency, strategic mastery, and broad contributions to the community.",
+    "image": "https://i.postimg.cc/brXDmtjG/anish-giri.jpg"
   },
   {
-    "name": "Vishwanathan Anand",
+    "id": 9,
+    "name": "Levon Aronian",
+    "title": "Grandmaster",
+    "country": "United States",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg",
+    "rating": 2750,
+    "peakRating": 2830,
+    "age": 42,
+    "biography": "Levon Aronian is an Armenian-born grandmaster representing the United States, celebrated for his creativity, attacking prowess, and original ideas in chess. A former world number two, Aronian has consistently been among the top players globally for more than a decade, known for his ability to generate complex, dynamic positions that challenge even the most elite competitors. His style blends aggressive tactics with deep positional understanding, often catching opponents off guard with innovative sacrifices or subtle maneuvers. Aronian is a multiple-time Olympiad champion and has won numerous elite tournaments, including Grand Slam events and super-tournaments, highlighting his competitive longevity. Beyond his technical strength, Aronian possesses remarkable psychological resilience and the capacity to recover from setbacks quickly. He is also highly respected for his endgame technique, which allows him to convert slight advantages into victories reliably. Throughout his career, Aronian has adapted to different styles and generations of opponents, balancing experience with continued study and preparation. His influence extends off the board as a mentor and ambassador of chess, inspiring players worldwide. Levon Aronian remains an active, formidable competitor whose imagination, fighting spirit, and consistent excellence make him one of the most celebrated figures in modern chess.",
+    "image": "https://i.postimg.cc/jd4wh23r/levon.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Maxime Vachier-Lagrave",
+    "title": "Grandmaster",
+    "country": "France",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg",
+    "rating": 2748,
+    "peakRating": 2819,
+    "age": 34,
+    "biography": "Maxime Vachier-Lagrave, commonly known as MVL, is a French grandmaster and one of the world’s leading super-grandmasters, renowned for his deep understanding of dynamic positions and aggressive opening repertoire. He has achieved remarkable success in elite tournaments, particularly excelling in the Sicilian Najdorf, where his theoretical knowledge and tactical alertness consistently challenge opponents. MVL’s style is characterized by precise calculation, resourcefulness, and a balance of positional understanding with sharp tactical insight. He is a formidable rapid and blitz player, often competing successfully across multiple time controls. Vachier-Lagrave has represented France in numerous Chess Olympiads, earning individual and team accolades, and has participated consistently in top-level super tournaments, demonstrating remarkable resilience and consistency. Beyond his competitive achievements, he is admired for his analytical skills, versatility, and ability to navigate complex middlegame structures with clarity and precision. MVL remains dedicated to continuous improvement, integrating modern preparation techniques with classical strategic principles. His calm yet assertive approach allows him to handle pressure with professionalism, making him a respected figure among peers. Maxime Vachier-Lagrave’s blend of creativity, calculation, and experience solidifies his place as one of the strongest contemporary grandmasters in the world.",
+    "image": "https://i.postimg.cc/Bnhjdy0J/mvl.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Shakhriyar Mamedyarov",
+    "title": "Grandmaster",
+    "country": "Azerbaijan",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
+    "rating": 2745,
+    "peakRating": 2820,
+    "age": 39,
+    "biography": "Shakhriyar Mamedyarov is an Azerbaijani grandmaster celebrated for his aggressive, creative, and fearless playing style. Renowned for tactical brilliance and imaginative sacrifices, he has defeated numerous top players and consistently challenges the world’s elite. Mamedyarov’s games are often characterized by complex middlegame battles and unbalanced positions, where his intuition and sharp calculation shine. He thrives in dynamic positions, taking risks when necessary to seize initiative and create winning chances. Despite his aggressive tendencies, Mamedyarov possesses strong positional understanding, endgame skill, and the ability to defend resourcefully when required. Over his career, he has achieved multiple victories in elite tournaments, demonstrating resilience and adaptability against different generations of players. His competitive spirit and fighting mindset make him one of the most entertaining and unpredictable grandmasters. Mamedyarov’s style has influenced contemporary attacking chess, inspiring younger players to combine risk-taking with sound calculation. Off the board, he is admired for his sportsmanship, charisma, and contributions to the global chess community. Shakhriyar Mamedyarov remains an active, formidable competitor whose creativity, tactical prowess, and relentless ambition continue to leave a lasting impact on elite chess worldwide.",
+    "image": "https://i.postimg.cc/rp3Kprs7/Səhriyar-Məmmədyarov.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Teimour Radjabov",
+    "title": "Grandmaster",
+    "country": "Azerbaijan",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Flag_of_Azerbaijan.svg",
+    "rating": 2740,
+    "peakRating": 2793,
+    "age": 38,
+    "biography": "Teimour Radjabov is an Azerbaijani grandmaster recognized for his defensive skills, strategic discipline, and deep understanding of chess positions. Winner of the 2019 FIDE World Cup, Radjabov excels in match-play formats and high-pressure situations, often demonstrating remarkable resilience and precise counterattacking ability. His style emphasizes prophylaxis, positional accuracy, and careful calculation, enabling him to neutralize aggressive opponents effectively. Radjabov is well-known for his preparation in opening theory, allowing him to avoid early pitfalls and guide games into structures that favor his strengths. Over the years, he has competed successfully in elite tournaments worldwide, demonstrating consistency and adaptability across formats, including classical, rapid, and blitz. His patience and ability to handle complex positions under pressure distinguish him as one of the most reliable defensive grandmasters of his generation. Radjabov is also admired for his calm demeanor, mental toughness, and strategic creativity, which enable him to convert small advantages into wins while avoiding unnecessary risks. With decades of experience and continued top-level competition, Teimour Radjabov remains an influential and respected figure in the global chess elite, demonstrating mastery, resilience, and enduring competitiveness.",
+    "image": "https://i.postimg.cc/Hn4x3v2F/teimour.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Viswanathan Anand",
+    "title": "Grandmaster",
     "country": "India",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
-    "yearsActive": "1985–present",
-    "notableAchievements": [
-      "World Chess Champion (2000, 2007–2013)",
-      "Popularized chess in India"
-    ],
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "rating": 2735,
+    "peakRating": 2817,
+    "age": 55,
+    "biography": "Viswanathan Anand is an Indian chess legend, former World Chess Champion, and one of the most influential figures in modern chess history. Known for his speed, intuition, and universal style, Anand has achieved elite success across classical, rapid, and blitz formats. His deep opening knowledge, combined with tactical acuity and positional understanding, allows him to compete effectively against the strongest players. Anand’s ability to adapt to new generations of grandmasters demonstrates his versatility and enduring competitiveness. He has represented India in multiple Chess Olympiads, achieving outstanding results and inspiring the growth of chess in his home country. Anand is especially celebrated for his calm demeanor, exceptional calculation speed, and resilience under pressure, making him a formidable opponent in critical situations. Beyond competitive play, he mentors and inspires the next generation of Indian chess talent, contributing to the global chess community. Throughout his career, Anand has balanced creativity with scientific precision, blending aggressive ideas with strategic planning. Despite his age, he continues to participate in elite tournaments, maintaining impressive results. Anand’s legacy is defined not only by his championships but also by his influence in popularizing chess and elevating India to the forefront of international competition.",
     "image": "https://i.postimg.cc/9XLqq8NH/images.jpg"
   },
   {
-    "name": "Paul Keres",
-    "country": "Estonia",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Flag_of_Estonia.svg",
-    "yearsActive": "1935–1975",
-    "notableAchievements": [
-      "Top contender for World Championship for decades",
-      "Known as the 'Crown Prince of Chess'"
-    ],
-    "image": "https://i.postimg.cc/bvfGjKdp/paul-keres.jpg"
+    "id": 14,
+    "name": "Jan-Krzysztof Duda",
+    "title": "Grandmaster",
+    "country": "Poland",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/1/12/Flag_of_Poland.svg",
+    "rating": 2733,
+    "peakRating": 2760,
+    "age": 26,
+    "biography": "Jan-Krzysztof Duda is a Polish grandmaster widely recognized for his tactical strength, aggressive opening choices, and consistent success in elite tournaments. Rising quickly through the ranks, Duda gained international attention by defeating top grandmasters, including former world champions, demonstrating his ability to compete at the highest level. His style emphasizes initiative, sharp calculation, and creativity, allowing him to take control of positions early and apply sustained pressure on opponents. Duda excels in rapid and blitz formats, using his tactical awareness and preparation to navigate complex positions with precision. In classical games, he demonstrates versatility, combining aggressive ideas with strategic depth and positional understanding. He is particularly known for his confidence in handling complications, often maintaining composure under intense pressure. Duda’s work ethic, preparation, and analytical approach support his rapid ascent in world rankings. As one of Poland’s leading grandmasters, he inspires a new generation of players with his daring style and competitive success. His dedication, adaptability, and fighting spirit make him a consistent contender in international tournaments, capable of challenging the world’s elite across multiple time controls. Jan-Krzysztof Duda remains a vibrant force in modern chess.",
+    "image": "https://i.postimg.cc/c4hCnj6J/duda.jpg"
   },
   {
-    "name": "Tigran Petrosian",
-    "country": "Armenia (Soviet Union)",
-    "countryFlag": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Flag_of_Armenia.svg",
-    "yearsActive": "1939–1984",
-    "notableAchievements": [
-      "World Chess Champion (1963–1969)",
-      "Known for incredible defensive skills"
-    ],
-    "image": "https://i.postimg.cc/prSTcSgL/Tigran-Petrosian-1962.jpg"
+    "id": 15,
+    "name": "Sergey Karjakin",
+    "title": "Grandmaster",
+    "country": "Russia",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "rating": 2730,
+    "peakRating": 2788,
+    "age": 35,
+    "biography": "Sergey Karjakin is a Russian grandmaster renowned for his defensive mastery, resilience, and exceptional ability to navigate high-pressure situations. A former World Championship challenger, Karjakin is widely recognized as the “Minister of Defense” for his skill in saving difficult positions and outlasting opponents in long endgames. His precise calculation and deep understanding of chess strategy allow him to neutralize aggressive opponents effectively. Karjakin excels in match-play formats, demonstrating patience, discipline, and careful preparation for each opponent. He is also a strong rapid and blitz competitor, adapting his defensive acumen to faster time controls without compromising accuracy. Over his career, he has combined tactical alertness with strategic foresight, making him a versatile and formidable opponent. Karjakin’s professionalism, mental toughness, and ability to remain calm under pressure have earned him respect across the chess world. Beyond his results, he contributes to the development of Russian chess, mentoring younger players and sharing insights gained from elite competition. Sergey Karjakin continues to compete at the highest levels, representing a model of defensive excellence, strategic precision, and enduring competitiveness in modern chess.",
+    "image": "https://i.postimg.cc/MprGsQ7X/sergey.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Wei Yi",
+    "title": "Grandmaster",
+    "country": "China",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+    "rating": 2728,
+    "peakRating": 2753,
+    "age": 25,
+    "biography": "Wei Yi is a Chinese grandmaster celebrated for his aggressive and tactical style, earning recognition as one of the brightest young talents in modern chess. Rising quickly through junior and international competitions, Wei Yi is known for his creativity, sharp calculation, and fearless approach, particularly in sharp, open positions. He excels in dynamic middlegames, consistently generating threats and creating complex tactical scenarios that challenge opponents’ calculation abilities. Wei Yi is versatile across classical, rapid, and blitz formats, achieving notable victories in elite tournaments. While his primary strength is attacking play, he has steadily improved positional understanding and endgame technique, reflecting a balanced approach to overall development. Wei Yi’s composure under pressure and confidence in initiating complications make him a highly dangerous opponent. Analysts praise his intuitive understanding of the board and his ability to maintain initiative throughout the game. With a strong work ethic and commitment to continual improvement, Wei Yi represents the new generation of Chinese chess talent capable of competing consistently against the world’s elite. His bold and creative style, combined with rapid growth and elite experience, makes him one of the most exciting young grandmasters to watch today.",
+    "image": "https://i.postimg.cc/W4F1x18w/wei-yi.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Nodirbek Abdusattorov",
+    "title": "Grandmaster",
+    "country": "Uzbekistan",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/8/84/Flag_of_Uzbekistan.svg",
+    "rating": 2765,
+    "peakRating": 2771,
+    "age": 20,
+    "biography": "Nodirbek Abdusattorov is one of the most impressive young grandmasters in modern chess and a leading figure in Uzbekistan’s historic rise on the global chess stage. He gained worldwide recognition after defeating Magnus Carlsen to win the World Rapid Chess Championship, displaying exceptional composure and precision at a remarkably young age. Abdusattorov is known for his fearless approach, deep calculation, and willingness to challenge elite opponents without hesitation. His opening preparation reflects modern engine-backed ideas, while his middlegame play shows strong positional understanding and tactical sharpness. Despite his youth, he demonstrates excellent time management and rarely collapses under pressure in critical moments. Abdusattorov’s endgame technique is mature and reliable, allowing him to convert small advantages efficiently. He consistently performs well in elite tournaments, proving his strength is not limited to rapid formats alone. Coaches and analysts frequently highlight his disciplined mindset and strong work ethic as key factors behind his rapid development. As he continues to gain experience against the world’s strongest players, Abdusattorov is widely regarded as a future World Championship contender. His steady improvement, confidence, and competitive resilience make him one of the most exciting players of the new generation.",
+    "image": "https://i.postimg.cc/Gtr3BJCk/noderbik.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Praggnanandhaa R",
+    "title": "Grandmaster",
+    "country": "India",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "rating": 2748,
+    "peakRating": 2758,
+    "age": 19,
+    "biography": "R Praggnanandhaa is an elite Indian grandmaster celebrated for his calm demeanor, strategic clarity, and exceptional maturity at a young age. He rose through the junior ranks rapidly, earning victories against multiple world champions before reaching adulthood. Praggnanandhaa’s playing style emphasizes solid positional foundations combined with sharp tactical awareness, allowing him to transition smoothly between quiet positions and complex battles. He is particularly respected for his opening preparation, often neutralizing opponents early and steering games into structures he understands deeply. Unlike many young attackers, Praggnanandhaa demonstrates patience and strong defensive skills, rarely panicking in difficult positions. His performances in elite tournaments have shown consistent progress, marking him as a long-term contender rather than a short-term prodigy. He is known for excellent time management and decision-making under pressure, qualities essential at the highest level. Coaches praise his disciplined training routine and analytical approach to self-improvement. Praggnanandhaa represents a new generation of Indian chess players who combine modern engine preparation with classical strategic principles. As he continues to gain experience, he remains one of the most promising talents aiming for sustained success at the world championship level.",
+    "image": "https://i.postimg.cc/gjDz3Xz7/prag.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Gukesh D",
+    "title": "Grandmaster",
+    "country": "India",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "rating": 2780,
+    "peakRating": 2787,
+    "age": 18,
+    "biography": "Gukesh D is one of the youngest elite grandmasters in chess history and a central figure in India’s new generation of top players. Known for his aggressive mindset and fearless approach, Gukesh thrives in sharp, complex positions where calculation and courage are rewarded. He is unafraid to take risks against established super grandmasters, often choosing ambitious openings to seize early initiative. Gukesh’s rise through the international rankings has been rapid, driven by consistent tournament performances and a strong competitive spirit. His tactical vision and willingness to press for wins even in equal positions make him a difficult opponent to face. Beyond his attacking abilities, Gukesh has shown steady improvement in positional play and endgame technique, reflecting a balanced development. He demonstrates impressive emotional control for his age, recovering quickly from losses and maintaining focus throughout demanding events. Analysts often highlight his confidence and hunger for success as defining traits. Gukesh continues to gain invaluable experience at elite tournaments, sharpening his skills against the strongest opposition. With continued growth and refinement, he is widely considered a future challenger for the World Chess Championship.",
+    "image": "https://i.postimg.cc/wxcTCPXb/gukesh.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Vincent Keymer",
+    "title": "Grandmaster",
+    "country": "Germany",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Flag_of_Germany.svg",
+    "rating": 2732,
+    "peakRating": 2748,
+    "age": 20,
+    "biography": "Vincent Keymer is Germany’s leading chess talent and one of Europe’s most consistent young grandmasters. He is widely respected for his disciplined playing style, deep calculation, and excellent endgame understanding. Keymer prefers structured positions where precise decision-making and long-term planning are required, rather than chaotic tactical battles. His opening repertoire is solid and well-prepared, often aimed at achieving stable advantages rather than immediate attacks. Keymer’s defensive skills are particularly strong, allowing him to hold difficult positions against elite opponents. He has gained valuable experience competing regularly in top-level tournaments, steadily improving his results over time. Unlike many prodigies, his progress has been methodical and sustainable, reflecting a mature approach to professional chess. Coaches frequently praise his work ethic, preparation habits, and analytical discipline. Keymer rarely makes impulsive decisions, instead favoring accurate calculation and positional clarity. His calm demeanor over the board helps him remain composed in high-pressure situations. As he continues to refine his game and accumulate experience, Vincent Keymer is regarded as a long-term contender among Europe’s strongest grandmasters.",
+    "image": "https://i.postimg.cc/BQmZ6KwJ/vincent.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Richard Rapport",
+    "title": "Grandmaster",
+    "country": "Romania",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/7/73/Flag_of_Romania.svg",
+    "rating": 2740,
+    "peakRating": 2776,
+    "age": 28,
+    "biography": "Richard Rapport is one of the most creative and unconventional grandmasters in modern chess. Known for his imaginative style, he frequently employs rare openings and surprising ideas to lead opponents into unfamiliar territory. Rapport’s willingness to take risks and sacrifice material for initiative makes his games highly entertaining and unpredictable. He excels in complex middlegame positions where intuition and creativity play a major role. Unlike many players who rely heavily on established theory, Rapport often introduces original concepts early in the game. His fearless approach forces opponents to think independently from the opening phase. Despite his aggressive tendencies, he possesses strong positional understanding and resourceful defensive skills. Rapport’s creativity has earned him victories against numerous elite players and made him a fan favorite worldwide. His style demands courage and confidence, qualities he displays consistently at the board. He has also contributed significantly as a second and analyst, sharing his creative insights with other top players. Richard Rapport remains a dangerous and respected competitor at every level, capable of turning any position into a complex battle where originality prevails.",
+    "image": "https://i.postimg.cc/Dwmvbwt6/rapport.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Alexander Grischuk",
+    "title": "Grandmaster",
+    "country": "Russia",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/f/f3/Flag_of_Russia.svg",
+    "rating": 2725,
+    "peakRating": 2810,
+    "age": 41,
+    "biography": "Alexander Grischuk is a highly experienced grandmaster and a three-time World Blitz Champion renowned for his sharp intuition and fighting spirit. Famous for frequently playing under severe time pressure, Grischuk possesses an extraordinary ability to find strong moves with limited time. His aggressive instincts and tactical awareness make him especially dangerous in complex positions. Grischuk often chooses dynamic openings that lead to unbalanced structures and rich middlegame play. Despite his clock troubles, he has defeated many of the world’s strongest players, proving his exceptional understanding of chess dynamics. His experience across all time controls has contributed to his adaptability and resilience. Grischuk’s style blends creativity with deep calculation, making his games unpredictable and intense. He remains a formidable opponent even as new generations rise, relying on intuition refined through decades of elite competition. His ability to handle psychological pressure and maintain confidence under difficult circumstances sets him apart. Alexander Grischuk continues to be respected as one of the most dangerous and resourceful competitors in elite chess.",
+    "image": "https://i.postimg.cc/P5NX85gH/Alexander-Grischuk.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Le Quang Liem",
+    "title": "Grandmaster",
+    "country": "Vietnam",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg",
+    "rating": 2723,
+    "peakRating": 2759,
+    "age": 33,
+    "biography": "Le Quang Liem is Vietnam’s strongest chess grandmaster and a respected figure on the international circuit. Known for his disciplined and pragmatic playing style, he excels in positions that require strategic clarity and precise calculation. Le combines solid opening preparation with strong positional understanding, often steering games toward structures he can control comfortably. His consistency across classical and rapid formats has earned him numerous tournament successes. Le is particularly effective in endgames, where his technique and patience allow him to outmaneuver opponents. He is admired for his professionalism and calm demeanor at the board, rarely showing emotional swings during competition. His approach emphasizes minimizing risk while maximizing efficiency. Over the years, Le Quang Liem has represented his country with distinction, contributing to the global recognition of Vietnamese chess. Coaches praise his work ethic and analytical discipline, which support his long-term competitiveness. As a seasoned elite player, Le continues to perform reliably against top opposition, maintaining his status among the world’s strongest grandmasters.",
+    "image": "https://i.postimg.cc/bwMz0jPP/leliem.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Hao Wang",
+    "title": "Grandmaster",
+    "country": "China",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Flag_of_the_People%27s_Republic_of_China.svg",
+    "rating": 2720,
+    "peakRating": 2763,
+    "age": 35,
+    "biography": "Hao Wang is a Chinese grandmaster recognized for his calm positional style and deep opening understanding. He gained international attention through consistent performances against elite opponents and qualification for the Candidates Tournament. Wang prefers strategic battles where long-term planning and structural advantages play a central role. His opening repertoire is flexible, allowing him to adapt effectively to different opponents and tournament situations. Hao Wang’s positional patience and accurate calculation make him difficult to defeat, especially in classical games. He demonstrates strong endgame technique and precise defensive skills, often neutralizing aggressive attempts from opponents. Known for his quiet confidence, Wang rarely takes unnecessary risks and focuses on maintaining control throughout the game. His steady approach has resulted in numerous high-level tournament successes. Coaches and analysts appreciate his objectivity and ability to remain composed under pressure. Hao Wang continues to be a respected presence in elite chess, contributing to China’s strong representation at the highest levels of international competition.",
+    "image": "https://i.postimg.cc/hGdKp341/Hao-Wang.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Arjun Erigaisi",
+    "title": "Grandmaster",
+    "country": "India",
+    "flagImage": "https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg",
+    "rating": 2772,
+    "peakRating": 2777,
+    "age": 21,
+    "biography": "Arjun Erigaisi is one of India’s most dynamic young grandmasters and a rapidly rising force in elite chess. Known for his aggressive style and tactical sharpness, Arjun thrives in positions that demand precise calculation and bold decision-making. He often seeks initiative from the opening, applying pressure and forcing opponents into uncomfortable positions. Arjun’s fearless mindset allows him to challenge top players without hesitation. His middlegame play is characterized by active piece coordination and constant attacking threats. Beyond his tactical strength, he has shown steady improvement in positional understanding and endgame technique. Arjun maintains high energy and focus throughout tournaments, contributing to his consistent results. Analysts frequently note his confidence and ambition as key drivers behind his rapid rating ascent. He demonstrates resilience after setbacks and continues pushing for wins even in balanced positions. With continued experience and refinement, Arjun Erigaisi is widely regarded as one of the most exciting prospects in modern chess and a future contender at the highest level.",
+    "image": "https://i.postimg.cc/FRXNqg7h/arjun.jpg"
   }
 ]
