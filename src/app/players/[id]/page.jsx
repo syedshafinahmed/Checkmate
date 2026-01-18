@@ -76,13 +76,13 @@ const PlayerDetails = () => {
             {player.achievements.map((achieve, idx) => (
               <div
                 key={idx}
-                className="relative bg-gray-900 rounded-2xl p-5 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-transform duration-300"
+                className="relative bg-gray-900 rounded-2xl p-5 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-transform duration-300 overflow-hidden"
               >
                 <p className="text-gray-200 text-sm font-black md:text-base leading-relaxed">
                   {achieve}.
                 </p>
                 <GiAchievement
-                  className="absolute bottom-3 right-0 text-orange-300 rotate-45 w-20 h-20 opacity-10 hover:opacity-80 transition-opacity duration-300 pointer-events-none"
+                  className="absolute bottom-0 -right-5 text-orange-300 w-30 h-30 opacity-10 hover:opacity-80 transition-opacity duration-300 pointer-events-none"
                 />
               </div>
             ))}
