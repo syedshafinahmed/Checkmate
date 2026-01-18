@@ -68,8 +68,10 @@ const Pricing = () => {
   return (
     <section className="py-20 text-base-content">
       <div className="max-w-7xl mx-auto px-6 md:px-0">
-
         <div className="text-center mb-16">
+          <span className="inline-flex px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300 mb-5">
+            Subscription
+          </span>
           <h2 className="text-4xl md:text-5xl font-extrabold">
             Choose Your <span className="text-orange-300">Game Plan</span>
           </h2>
@@ -92,7 +94,7 @@ const Pricing = () => {
               whileHover={{ y: -12, scale: 1.03 }}
               transition={{ type: "spring", stiffness: 180, damping: 22 }}
               className="relative rounded-2xl p-6 bg-base-200 border border-base-300 transition-transform group"
-              style={{ transformStyle: "preserve-3d" }} 
+              style={{ transformStyle: "preserve-3d" }}
             >
               {plan.popular && (
                 <span className="absolute top-7 right-5 px-4 py-1.5 rounded-full bg-orange-300/10 border border-orange-300 text-orange-300 text-xs font-extrabold uppercase tracking-[0.25em] z-10">
