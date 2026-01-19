@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import openings from "../data/openings.json";
 import { GoArrowUpRight } from "react-icons/go";
 import Link from "next/link";
+import { Tooltip } from "@mui/material";
 
 const filters = ["All", "Open", "Closed", "Semi-Open", "Hypermodern"];
 
@@ -15,7 +16,7 @@ export default function OpeningsPage() {
 
   return (
     <section className="py-20 mt-10 px-6 md:px-0 bg-base-100">
-<div className="max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto">
 
         <div className="text-center mb-10">
           <span className="inline-flex px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300">
@@ -64,12 +65,14 @@ export default function OpeningsPage() {
                   <h3 className="font-black text-sm line-clamp-1 leading-tight">
                     {opening.name}
                   </h3>
-                  <Link
-                    href={`/openings/${opening.id}`}
-                    className="text-orange-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  >
-                    <GoArrowUpRight size={18} />
-                  </Link>
+                  <Tooltip title="View Opening">
+                    <Link
+                      href={`/openings/${opening.id}`}
+                      className="text-orange-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    >
+                      <GoArrowUpRight size={18} />
+                    </Link>
+                  </Tooltip>
                 </div>
 
                 <p className="text-xs text-gray-500 mt-1">

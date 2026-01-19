@@ -30,10 +30,11 @@ const PlayerDetails = () => {
   return (
     <div className="text-base-content bg-base-100 relative px-6 md:px-0 py-20">
 
+
       {loading ? (
         <div className="max-w-7xl mx-auto animate-pulse">
 
-          <div className="flex justify-end mb-10">
+          <div className="flex justify-start mb-10">
             <div className="h-10 w-24 bg-gray-500 rounded-lg" />
           </div>
 
@@ -75,10 +76,10 @@ const PlayerDetails = () => {
           <div className="relative max-w-7xl mx-auto">
             <button
               onClick={() => router.push("/players")}
-              className="flex absolute top-5 text-white right-0 items-center gap-2 px-4 py-2 bg-gray-900 backdrop-blur-md rounded-lg shadow-md"
+              className="mb-10 flex items-center gap-2 text-sm font-bold text-base-content hover:text-orange-300 transition"
             >
-              <FiArrowLeft size={20} />
-              Back
+              <FiArrowLeft />
+              Back to Players
             </button>
           </div>
 
@@ -137,7 +138,7 @@ const PlayerDetails = () => {
                     key={idx}
                     className="relative bg-gray-900 rounded-2xl p-5 shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-transform duration-300 overflow-hidden"
                   >
-                    <p className="text-gray-200 text-sm font-black md:text-base leading-relaxed">
+                    <p className="text-base-content text-sm font-medium md:text-base leading-relaxed">
                       {achieve}.
                     </p>
 
