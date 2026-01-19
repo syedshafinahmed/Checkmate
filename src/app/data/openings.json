@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "name": "Ruy López",
+    "eco": "C60–C99",
+    "type": "Open",
+    "popularity": 4.9,
+    "mainMoves": "1.e4 e5 2.Nf3 Nc6 3.Bb5",
+    "plans": [
+      "Pressure on the e5 pawn",
+      "Long-term kingside initiative",
+      "Strong central control"
+    ],
+    "traps": ["Noah’s Ark Trap", "Mortimer Trap"],
+    "description": "A classical opening emphasizing long-term positional pressure and rich strategic play.",
+    "image": "https://www.ragchess.com/wp-content/uploads/2021/10/word-image.png"
+  },
+  {
+    "id": 2,
+    "name": "Italian Game",
+    "eco": "C50–C54",
+    "type": "Open",
+    "popularity": 4.7,
+    "mainMoves": "1.e4 e5 2.Nf3 Nc6 3.Bc4",
+    "plans": [
+      "Rapid development",
+      "Attack on the weak f7 square",
+      "Early kingside initiative"
+    ],
+    "traps": ["Fried Liver Attack", "Blackburne Shilling Trap"],
+    "description": "A direct and aggressive opening focusing on quick development and early attacks.",
+    "image": "https://www.ragchess.com/wp-content/uploads/2017/11/the-dragon-variation-sicilian-300x300.png"
+  },
+  {
+    "id": 3,
+    "name": "Sicilian Defense",
+    "eco": "B20–B99",
+    "type": "Semi-Open",
+    "popularity": 5.0,
+    "mainMoves": "1.e4 c5",
+    "plans": [
+      "Imbalanced pawn structure",
+      "Queenside counterplay",
+      "Dynamic piece activity"
+    ],
+    "traps": ["Smith-Morra Gambit Trap", "Dragon Yugoslav Trap"],
+    "description": "The most popular response to 1.e4, leading to complex and highly dynamic positions.",
+    "image": "https://www.ragchess.com/wp-content/uploads/2022/03/word-image.png"
+  },
+  {
+    "id": 4,
+    "name": "French Defense",
+    "eco": "C00–C19",
+    "type": "Semi-Open",
+    "popularity": 4.5,
+    "mainMoves": "1.e4 e6 2.d4 d5",
+    "plans": [
+      "Challenge White’s center",
+      "Counterattack with c5 or f6",
+      "Solid kingside structure"
+    ],
+    "traps": ["Milner-Barry Gambit Trap", "Rubinstein Trap"],
+    "description": "A solid defensive opening aiming to undermine White’s central control.",
+    "image": "https://cdn-aoojk.nitrocdn.com/DywmAqkDFrtPObUVRShiaaiaXRNZWGEw/assets/images/optimized/rev-0a68d6c/chessklub.com/wp-content/uploads/2023/05/french-defense-tarrasch-variation.png"
+  },
+  {
+    "id": 5,
+    "name": "Caro-Kann Defense",
+    "eco": "B10–B19",
+    "type": "Semi-Open",
+    "popularity": 4.4,
+    "mainMoves": "1.e4 c6 2.d4 d5",
+    "plans": [
+      "Strong pawn structure",
+      "Safe king development",
+      "Endgame-oriented play"
+    ],
+    "traps": ["Blackburne Trap", "Fantasy Variation Trap"],
+    "description": "A reliable opening focused on solidity and long-term structural strength.",
+    "image": "https://cdn-aoojk.nitrocdn.com/DywmAqkDFrtPObUVRShiaaiaXRNZWGEw/assets/images/optimized/rev-0a68d6c/chessklub.com/wp-content/uploads/2024/02/caro-kann-defense.png"
+  },
+  {
+    "id": 6,
+    "name": "Queen’s Gambit",
+    "eco": "D06–D69",
+    "type": "Closed",
+    "popularity": 4.8,
+    "mainMoves": "1.d4 d5 2.c4",
+    "plans": [
+      "Central domination",
+      "Long-term positional pressure",
+      "Queenside majority play"
+    ],
+    "traps": ["Elephant Trap", "Vienna Trap"],
+    "description": "A cornerstone of classical chess focused on central control and strategic depth.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/QueensGambitDeclined/image12.png"
+  },
+  {
+    "id": 7,
+    "name": "King’s Indian Defense",
+    "eco": "E60–E99",
+    "type": "Closed",
+    "popularity": 4.6,
+    "mainMoves": "1.d4 Nf6 2.c4 g6",
+    "plans": [
+      "Kingside pawn storm",
+      "Dynamic counterplay",
+      "Flexible pawn structure"
+    ],
+    "traps": ["Greek Gift Sacrifice", "Smyslov Trap"],
+    "description": "A hyper-aggressive defense allowing White space in exchange for counterplay.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScBaCebj8Gght7S96BNUE9gSTnTohIT-c_6g&s"
+  },
+  {
+    "id": 8,
+    "name": "Nimzo-Indian Defense",
+    "eco": "E20–E59",
+    "type": "Closed",
+    "popularity": 4.7,
+    "mainMoves": "1.d4 Nf6 2.c4 e6 3.Nc3 Bb4",
+    "plans": [
+      "Pressure on doubled pawns",
+      "Piece activity",
+      "Control of central squares"
+    ],
+    "traps": ["Kmoch Trap", "Sämisch Trap"],
+    "description": "A highly respected opening balancing positional pressure and dynamic play.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/NimzoIndianDefense/bb4.png"
+  },
+  {
+    "id": 9,
+    "name": "English Opening",
+    "eco": "A10–A39",
+    "type": "Closed",
+    "popularity": 4.3,
+    "mainMoves": "1.c4",
+    "plans": [
+      "Flexible pawn structure",
+      "Queenside expansion",
+      "Transpositional possibilities"
+    ],
+    "traps": ["Anglo-Scandinavian Trap", "Botvinnik Trap"],
+    "description": "A flexible opening that often transposes into other positional systems.",
+    "image": "https://www.ragchess.com/wp-content/uploads/2017/11/grunfeld-defense-300x300.png"
+  },
+  {
+    "id": 10,
+    "name": "Scandinavian Defense",
+    "eco": "B01",
+    "type": "Semi-Open",
+    "popularity": 4.1,
+    "mainMoves": "1.e4 d5",
+    "plans": [
+      "Early central confrontation",
+      "Rapid piece development",
+      "Queen activity"
+    ],
+    "traps": ["Icelandic Gambit Trap", "Portuguese Gambit Trap"],
+    "description": "An immediate challenge to White’s center with practical attacking chances.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/ScandinavianDefense/image14.png"
+  },
+  {
+    "id": 11,
+    "name": "Pirc Defense",
+    "eco": "B07–B09",
+    "type": "Semi-Open",
+    "popularity": 4.0,
+    "mainMoves": "1.e4 d6 2.d4 Nf6 3.Nc3 g6",
+    "plans": [
+      "Flexible central response",
+      "Kingside fianchetto",
+      "Counterattacking play"
+    ],
+    "traps": ["Austrian Attack Trap", "150 Attack Trap"],
+    "description": "A hypermodern defense allowing White space while preparing counterplay.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/PircDefense/czech-pirc.png"
+  },
+  {
+    "id": 12,
+    "name": "London System",
+    "eco": "D02",
+    "type": "Closed",
+    "popularity": 4.6,
+    "mainMoves": "1.d4 d5 2.Nf3 Nf6 3.Bf4",
+    "plans": [
+      "Solid piece setup",
+      "Safe king development",
+      "Slow positional pressure"
+    ],
+    "traps": ["Elephant Trap", "Blackmar Trap"],
+    "description": "A system-based opening valued for its simplicity and reliability.",
+    "image": "https://i2.wp.com/chesspathways.com/wp-content/uploads/2019/09/26b-300x300.png?ssl=1"
+  },
+  {
+    "id": 13,
+    "name": "Grünfeld Defense",
+    "eco": "D70–D99",
+    "type": "Hypermodern",
+    "popularity": 4.8,
+    "mainMoves": "1.d4 Nf6 2.c4 g6 3.Nc3 d5",
+    "plans": [
+      "Allow White a strong center",
+      "Attack the center with pieces",
+      "Dynamic counterplay on dark squares"
+    ],
+    "traps": ["Russian System Trap", "Exchange Variation Tactics"],
+    "description": "A quintessential hypermodern defense that challenges the center through active piece play.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/GrunfeldDefense/d5.png"
+  },
+  {
+    "id": 14,
+    "name": "Alekhine Defense",
+    "eco": "B02–B05",
+    "type": "Hypermodern",
+    "popularity": 4.2,
+    "mainMoves": "1.e4 Nf6",
+    "plans": [
+      "Provoke early pawn advances",
+      "Undermine the overextended center",
+      "Flexible piece deployment"
+    ],
+    "traps": ["Four Pawns Attack Trap", "Chase Variation Trap"],
+    "description": "An unorthodox opening inviting White to overextend and become a target.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/AlekhinesDefense/alekhines-defense.png"
+  },
+  {
+    "id": 15,
+    "name": "Modern Defense",
+    "eco": "B06",
+    "type": "Hypermodern",
+    "popularity": 4.0,
+    "mainMoves": "1.e4 g6",
+    "plans": [
+      "Kingside fianchetto",
+      "Delayed central pawn breaks",
+      "Flexible transpositional play"
+    ],
+    "traps": ["Monkey’s Bum Trap", "Averbakh System Trap"],
+    "description": "A flexible hypermodern setup focusing on piece activity over early center occupation.",
+    "image": "https://d2rnvyacaewvx6.cloudfront.net/images/articles/ModernDefense/a6.png"
+  }
+]
