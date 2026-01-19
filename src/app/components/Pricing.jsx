@@ -66,7 +66,7 @@ const cardVariants = {
 
 const Pricing = () => {
   return (
-    <section className="py-20 text-base-content">
+    <section className="pb-20 text-base-content">
       <div className="max-w-7xl mx-auto px-6 md:px-0">
         <div className="text-center mb-16">
           <span className="inline-flex px-4 py-1.5 rounded-full bg-orange-300/10 text-orange-300 text-xs font-extrabold uppercase tracking-[0.3em] border border-orange-300 mb-5">

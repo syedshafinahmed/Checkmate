@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 
 const Players = () => {
   return (
-    <section id="players" className="relative py-20 px-4 md:px-0 max-w-7xl mx-auto">
+    <section id="players" className="relative pb-20 px-4 md:px-0 max-w-7xl mx-auto">
 
       <div className="relative z-10">
         <div className="text-center mb-10">
