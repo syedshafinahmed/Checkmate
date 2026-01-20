@@ -75,11 +75,11 @@ const PlayerDetails = () => {
 
           <div className="relative max-w-7xl mx-auto">
             <button
-              onClick={() => router.push("/players")}
+              onClick={() => router.back()}
               className="mb-10 flex items-center gap-2 text-sm font-bold text-base-content hover:text-orange-300 transition"
             >
               <FiArrowLeft />
-              Back to Players
+              Back
             </button>
           </div>
 

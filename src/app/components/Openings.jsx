@@ -10,55 +10,8 @@ const filters = ["All", "Open", "Closed", "Semi-Open", "Hypermodern"];
 
 export default function OpeningsPage() {
   const [active, setActive] = useState("All");
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const t = setTimeout(() => setLoading(false), 900);
-    return () => clearTimeout(t);
-  }, []);
-
   const filtered =
     active === "All" ? openings : openings.filter((o) => o.type === active);
-
-  if (loading) {
-    return (
-      <section className="py-20 mt-10 px-6 md:px-0 bg-base-100 animate-pulse">
-        <div className="max-w-7xl mx-auto">
-
-          <div className="text-center mb-10 space-y-6">
-            <div className="mx-auto h-6 w-56 rounded-full bg-neutral-300 dark:bg-neutral-700" />
-            <div className="mx-auto h-12 w-96 rounded-lg bg-neutral-300 dark:bg-neutral-700" />
-            <div className="mx-auto h-4 w-2/3 rounded bg-neutral-300 dark:bg-neutral-700" />
-          </div>
-
-          <div className="flex gap-3 justify-center mb-10 flex-wrap">
-            {Array.from({ length: 5 }).map((_, i) => (
-              <div
-                key={i}
-                className="h-9 w-24 rounded-full bg-neutral-300 dark:bg-neutral-700"
-              />
-            ))}
-          </div>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
-            {Array.from({ length: 12 }).map((_, i) => (
-              <div
-                key={i}
-                className="rounded-2xl overflow-hidden border border-black/20 dark:border-orange-300/10"
-              >
-                <div className="h-46 bg-neutral-300 dark:bg-neutral-700" />
-                <div className="p-5 space-y-3">
-                  <div className="h-4 w-3/4 rounded bg-neutral-300 dark:bg-neutral-700" />
-                  <div className="h-3 w-1/2 rounded bg-neutral-300 dark:bg-neutral-700" />
-                </div>
-              </div>
-            ))}
-          </div>
-
-        </div>
-      </section>
-    );
-  }
 
   return (
     <section className="py-20 mt-10 px-6 md:px-0 bg-base-100">
@@ -79,24 +32,8 @@ export default function OpeningsPage() {
           </p>
         </div>
 
-        <div className="flex gap-3 justify-center mb-10 flex-wrap">
-          {filters.map((f) => (
-            <button
-              key={f}
-              onClick={() => setActive(f)}
-              className={`px-4 py-2 rounded-full text-xs font-bold transition-all
-                ${active === f
-                  ? "bg-orange-300 text-black"
-                  : "border border-neutral-300 dark:border-neutral-700"
-                }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
-
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-6 gap-6">
-          {filtered.map((opening) => (
+          {filtered.slice(0,6).map((opening) => (
             <div
               key={opening.id}
               className="group rounded-2xl overflow-hidden bg-neutral-100 dark:bg-neutral-800 border border-black/20 dark:border-orange-300/10 shadow-md hover:shadow-2xl transition-all hover:-translate-y-1"

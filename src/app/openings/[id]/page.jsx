@@ -24,11 +24,11 @@ export default function OpeningDetails() {
     <section className="py-20 mt-5 px-6 bg-base-100">
       <div className="max-w-7xl mx-auto">
         <button
-          onClick={() => router.push("/openings")}
+          onClick={() => router.back()}
           className="mb-10 flex items-center gap-2 text-sm font-bold text-base-content hover:text-orange-300 transition"
         >
           <FiArrowLeft />
-          Back to Openings
+          Back
         </button>
 
         <div className="flex flex-col lg:flex-row gap-10 items-start">

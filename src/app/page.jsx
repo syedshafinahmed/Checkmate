@@ -3,8 +3,10 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import About from "./components/About";
 import Players from "./components/Players";
-import Footer from "./components/Footer";
 import Pricing from "./components/Pricing";
+import PlayersHome from "./components/PlayersHome";
+import Openings from "./components/Openings";
+import CoursesHome from "./components/CoursesHome"
 
 export default function Home() {
   return (
@@ -13,8 +15,10 @@ export default function Home() {
       <Banner />
       <About />
       <Players />
+      <PlayersHome />
+      <Openings />
+      <CoursesHome />
       <Pricing />
-      <Footer />    
     </div>
   );
 }
